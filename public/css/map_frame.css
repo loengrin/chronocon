@@ -1,0 +1,482 @@
+.b-map-frame
+{  
+  position: absolute;
+  left: 30em;
+  right: 0em;
+  top: 0em;
+  bottom: 0em;      
+  box-sizing: border-box;
+  border: 2px solid #000;
+}
+
+.b-map-frame-inner
+{  
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.b-map-mobile-emulate
+{  
+  width:560px !important;
+  height: 430px !important;
+  left:50%;
+  top:50%;
+  margin-left: -280px;
+  margin-top: -215px;
+}
+
+.b-map-frame_compr
+{
+  bottom: 3.4em !important;      
+}
+
+.b-map-frame-top
+{
+  position: relative;
+  width:100%;  
+}
+
+.b-map-frame-top__map-name
+{
+  position: absolute;
+  left: 15%;
+  width:70%;  
+  top:  -1.6em;
+  height:1.4em;
+  z-index: 9;  
+  background:url("/img/map_name_background.png");
+  background-size: 100% 100%;
+  font-family: Times New Roman;
+  font-size: 1.2em;
+  color: #CEB765;  
+  text-align: center;
+  overflow: hidden;
+}
+
+.b-map-frame-settings
+{
+  width:100%;  
+}
+
+.b-map-frame-settings__fog_button
+{  
+  position: absolute;
+  right: 8.0em;
+  width:2em;
+  bottom:0.5em;  
+  height:2em;
+  z-index: 10;
+  background-image:url("/img/setting_fog.png"); 
+}
+
+.b-map-frame-settings__fog_button_dis
+{   
+  background-image:url("/img/setting_fog_dis.png"); 
+}
+
+.b-map-frame-settings__labels_button
+{  
+  position: absolute;
+  right:0.5em;
+  width:2em;
+  bottom:0.5em;  
+  height:2em;
+  z-index: 10;
+  background-image:url("/img/setting_label.png"); 
+}
+
+.b-map-frame-settings__labels_button_dis
+{   
+  background-image:url("/img/setting_label_dis.png"); 
+}
+
+.b-map-frame-settings__infoboxes_button
+{  
+  position: absolute;
+  right:3.0em;
+  width:2em;
+  bottom:0.5em;  
+  height:2em;
+  z-index: 10;
+  background-image:url("/img/setting_info.png"); 
+}
+
+.b-map-frame-settings__infoboxes_button_dis
+{   
+  background-image:url("/img/setting_info_dis.png"); 
+}
+
+.b-map-frame-settings__icons_button
+{  
+  position: absolute;
+  right:5.5em;
+  width:2em;
+  bottom:0.5em;  
+  height:2em;
+  z-index: 10;
+  background-image:url("/img/setting_icons.png"); 
+}
+
+.b-map-frame-settings__icons_button_dis
+{   
+  background-image:url("/img/setting_icons_dis.png"); 
+}
+
+
+.b-map-frame-settings__descr_button
+{  
+  position: absolute;
+  right: 3.0em;
+  width:2em;
+  bottom:3.0em;  
+  height:2em;
+  z-index: 10;
+  background-image:url("/img/setting_descr.png"); 
+}
+
+.b-map-frame-settings__objects_button
+{  
+  position: absolute;
+  right: 0.5em;
+  width:2em;
+  bottom:3.0em;  
+  height:2em;
+  z-index: 10;
+  background-image:url("/img/setting_search_button.png"); 
+}
+
+
+.b-map-frame-settings_button
+{  
+  position: absolute;
+  right: 0.5em;
+  width:2em;
+  bottom:0.5em;  
+  height:2em;
+  z-index: 10;
+  background-image:url("/img/settings_button.png"); 
+}
+
+.b-map-frame-settings__mobile_emulate_button
+{  
+  position: absolute;
+  right:12.5em;
+  width:2em;
+  bottom:0.5em;  
+  height:2em;
+  z-index: 10;
+  background-image:url("/img/setting_mobile_emulate.png"); 
+}
+
+.b-map-frame-settings__mobile_emulate_button_dis
+{   
+  background-image:url("/img/setting_mobile_emulate_dis.png"); 
+}
+
+
+
+.b-map-frame-settings__search_button
+{  
+  position: absolute;
+  right:9.5em;
+  width:2em;
+  bottom:  0.5em;  
+  height:2em;
+  z-index: 10;
+  background-image:url("/img/setting_search_button.png"); 
+}
+
+.b-map-frame-settings__search_button_dis
+{   
+  background-image:url("/img/setting_search_button_dis.png"); 
+}
+
+
+
+.b-map
+{
+  width:100%;
+  height:100%;  
+}
+
+
+.b-loader-outer
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    tranform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    height: 10em;
+    width: 10em;
+    z-index: 20;
+}
+
+.b-loader-outer div
+{
+    background: url(/img/new/loader_out.png);
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    -webkit-animation: rotation 10s infinite linear;
+    -moz-animation:spin 10s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.b-loader-inner
+{
+    background: url('/img/new/loader_in.png');
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    tranform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    height: 8em;
+    width: 8em;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    z-index: 20;
+    color: #CEB765
+}
+
+.b-loader-inner div
+{
+    height: 8em;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 8em;
+}
+
+.b-message
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  tranform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  padding: 0.3em 1em 0.3em 1em; 
+  background: url(/img/new/name_back2.png) 0 0/100% 100% no-repeat ;
+  z-index:20;
+  font-family: Times New Roman;
+  font-size: 1.5em;
+  color: #CEB765;
+  border: 1px solid #CEB765;
+  text-align: center;
+ }
+
+
+
+
+.b-position-section tr
+{
+  line-height: 0.6em;
+}
+
+.b-position-section th
+{
+  font-family:Arial,Regular;
+  font-size: 50%;  
+  color: #CEB765;
+  text-align: left;
+}
+
+.b-position-section td
+{
+  font-family:Arial,Regular;
+  font-size: 70%;  
+  color: #fff;
+  text-align: right;
+}
+
+
+.b-unit-menu-wrapper
+{
+  position: absolute; 
+  z-index:21;  
+}
+
+.b-settings-menu-wrapper
+{
+  position: absolute; 
+  bottom:2em;
+  right:0.5em;
+  z-index:21;  
+  border: 3px solid #000;
+}
+
+.b-unit-menu a
+{
+  border-bottom: 1px solid #fff;
+  color:#fff;
+  background-color:rgba(100,100,100,0.8);  
+  text-align: left;
+  font-size: 1em;
+  display:block;
+  padding:1px;
+  text-decoration: none;
+}
+
+.b-unit-menu span
+{
+  border-bottom: 3px solid #d34239;
+  display: block;
+  height: 0px;
+  width: 100%;
+}
+
+
+.b-search-block
+{
+  position: absolute;
+  right: 5em;
+  padding: 1.3em 1em 0.3em 1em; 
+  top: 2em;
+  height: 1.8em;     
+  background: url(/img/new/popup_text.png);
+  z-index:20;
+  font-family: Times New Roman;
+  text-align: center;
+}
+
+.b-search-field
+{
+    width:20em;
+}
+
+.b-search-button
+{
+   border: 1px solid;
+   margin-left: 0.3em; 
+}
+
+.b-search-close-button
+{
+   border: 1px solid;
+   margin-left: 0.3em; 
+}
+
+
+.b-object-search
+{
+     width:25em;
+}
+
+.b-objects_popup__title {
+    cursor: pointer;
+}
+
+
+.b-date-navigation
+{
+  position: absolute;
+  left: calc(50% - 5.5em) !important;
+  top: 0.3em;
+  height: 1.8em;
+  text-align: center;
+  z-index:20;
+ }
+
+.b-date-navigation .date
+{
+  display: table-cell;
+  height: 1.8em;
+  text-align: center;
+  vertical-align: middle;
+  background-image:url("/img/new/date_back.png");
+  background-size: 100% 100%;
+  width: 11em;
+  color: #CEB765;
+  padding:0.2em 0.5em;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+
+.b-date-navigation .next
+{
+  display: inline-block;
+  background-image:url("/img/next.png");
+  background-size: 100% 100%;
+  width: 3.5em;
+  height:2.5em;
+  vertical-align: top;
+}
+
+.b-date-navigation .previous
+{
+  display: inline-block;
+  background-image:url("/img/previous.png");
+  background-size: 100% 100%;
+  width: 3.5em;
+  height: 2.5em;
+  vertical-align: top;
+}
+
+.close-link {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.close-link-div {
+    
+    height: 2.0em;
+    background-image: url(/img/new/navig_frame.png);
+    width: 10em; 
+    position: relative;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.close-link-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    cursor: pointer;
+    color: #6A2D0C;
+}
+
+
+
+.b-zoom-block
+{  
+  position: absolute;
+  right: 1.7em;
+  top: 4em;
+  width:2em;
+  height:2em;
+  z-index: 10;
+}
+
+.b-zoom-plus
+{  
+  
+  width:3em;
+  height:3em;
+  background-image: url(/img/new/zoom_plus.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.b-zoom-minus
+{  
+  width:3em;
+  height:3em;
+  background-image: url(/img/new/zoom_minus.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+}

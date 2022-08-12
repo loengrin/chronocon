@@ -1,0 +1,180 @@
+
+.b-button_edit
+{
+  height: 1.5em;
+  width: 1.5em;
+  background-image:url("/img/edit.png");
+}
+
+.b-button_del
+{
+  height: 1.5em;
+  width: 1.5em;
+  background-image:url("/img/new/del.png");
+  margin-right: 1em;
+}
+
+
+.b-artile-textarea
+{
+    width:25em;
+    height: 20em;    
+}
+
+.b-descr-textarea
+{
+    width:10em;
+    height: 8em;    
+}
+
+
+
+.b-event-form .b-text-input
+{
+    width:35em;   
+}
+
+
+b-default-images-table
+{
+    margin-top: 1em;
+}
+
+.b-default-images-table td
+{
+  width:80px;
+  height:80px;
+  text-align:center;
+  vertical-align:middle;
+  border: 1px solid #6A2D0C;
+  box-sizing: border-box;
+}
+
+.b-default-images-table td.selected
+{
+   border: 5px solid #6A2D0C;
+}
+
+
+.b-popup-content table.b-default-images-table td img
+{
+    float: initial !important;
+    margin: 0!important;
+    height: auto !important;
+}
+
+.b-popup-content table td {
+    color: #6A2D0C;
+    border: 1px solid;
+    border-collapse: collapse;
+    vertical-align: middle !important;
+}
+
+.b-error-span
+{
+  color: #f00;
+  margin-left: 3em;
+}
+
+.b-link
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+table.info_table{
+  border: 1px solid #6A2D0C;
+  border-collapse: collapse; 
+  width: 100%;
+}
+
+table.info_table td
+{
+  border-collapse: collapse;
+  color: #000;
+  border: 1px solid #6A2D0C;
+  border-collapse: collapse;
+  text-align: right;
+  text-align:left;
+  padding-left:0.5em;
+  vertical-align: top;
+  font-weight: 100;
+}
+
+
+table.info_table td div
+{
+  max-width:22em;
+}
+
+.b-unit-tip table.info_table td div
+{
+  max-width:40em !important;
+}
+
+table.info_table td.title
+{
+  color: #ccc;
+  text-align:center;
+}
+
+table.info_table th
+{
+  border-collapse: collapse;
+  border: 1px solid #6A2D0C;
+  color:#6A2D0C;
+  text-align:left;
+  vertical-align: top;
+  width: 40%;
+  font-weight: 100;
+}
+
+
+.b-unit-tip th
+{
+  color:#000;
+  padding-left:0.5em;
+}
+
+.b-unit-tip-title
+{
+    color: #6A2D0C;
+    margin-bottom: 0.2em;
+}
+
+.info_block_edit_image
+{
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.b-coordinates-textarea
+{
+  width:30em;
+  height:40em;
+}
+
+.b-event-box-textarea
+{
+  width:25em;
+  height:6em;
+}
+
+.js-event-description
+{
+  width:25em;
+  height:8em;
+}
+
+.b-index_popup__title
+{
+   cursor: pointer;
+}
+
+.del_button_middle
+{
+    font-size: 0.7em !important;
+}

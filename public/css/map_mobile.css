@@ -1,0 +1,121 @@
+@media (orientation: portrait) {
+
+.textpanel-article 
+{
+    width: 100% !important;
+    height:19em !important;
+}
+
+.b-map-frame {
+    top: 23em !important;
+    left: 0em!important;
+    right: 0em!important;
+    bottom: 0em!important;
+}
+
+.b-textpanel-article {
+    width: 100% !important;
+}
+
+.b-main-menu-area {
+    right: 0em  !important;
+    width: auto !important;
+}
+}
+
+.textpanel-button-index
+{
+    margin-top: -1.4em;
+}
+
+.b-map-frame-top {
+    display:none  !important;
+}
+
+.chain-label {
+    display:none  !important;
+}
+
+.b-popup-area.b-main-block
+{
+  width: 100% !important;
+  left: 0 !important;
+}
+  
+.b-main-menu-popup a {
+    font-size: 1.5em !important;
+    width: 100% !important;
+    margin: 0.2em 0 !important;
+}
+
+.block-scroll-wood {
+    height: calc(100% - 2.5em) !important;
+    margin-top: 1em;
+}
+
+.block-scroll-wood-big {
+    height: calc(100% - 5.5em) !important;
+     margin-top: 1em;
+}
+
+.block-scroll-wood-max {
+    height: calc(100% - 5.5em) !important;
+    margin-top: 0em;
+}
+
+
+
+.b-popup-area {
+    left: 1em !important;
+    right: 1em !important;
+    width: auto !important;
+}
+
+.b-date-mode-button-dates
+{  
+  position: absolute;
+  right: 0.6em;
+  top: 0.4em;
+  width: 2.5em;
+  height: 2.5em;
+  z-index: 10;
+  background-image:url("/img/new/date_mode_d.png"); 
+}
+
+.b-date-mode-button-chains
+{
+  position: absolute;
+  right: 0.6em;
+  top: 0.4em;
+  width: 2.5em;
+  height: 2.5em;
+  z-index: 10;
+  background-image:url("/img/new/date_mode_c.png"); 
+}
+
+.b-main-menu-area .map-name
+{
+    right: 3em !important;
+}
+
+.b-message-button 
+{
+  display:none;
+}
+
+.b-zoom-block {
+    left: 0.3em !important;
+    top: 0.3em !important;
+}
+
+
+.textpanel-buttons-new {
+     margin-top: 1em !important;
+}
+
+.b-popup-area-short {
+    width: 20em !important;
+    left: calc(50% - 10em) !important;
+    max-height: 34em !important;
+    top: 4em !important;
+}

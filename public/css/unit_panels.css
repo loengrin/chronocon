@@ -1,0 +1,98 @@
+.b-add-objects-panel
+{
+  display: inline-block;
+}
+
+.b-add-objects-panel__city
+{
+  background:url("/img/city.png");
+  height: 1.6em;
+  width: 1.6em;
+  margin: 0 0.1em;
+  vertical-align: top;
+}
+
+.b-add-objects-panel__region
+{
+  background:url("/img/country.png");
+  height: 1.6em;
+  width: 1.6em;;
+  margin: 0 0.1em;
+  vertical-align: top;
+}
+
+.b-add-objects-panel__line
+{
+  background:url("/img/river.png");
+  height: 1.6em;
+  width: 1.6em;
+  margin: 0 0.1em;
+  vertical-align: top;
+}
+
+
+.b-add-objects-panel__army
+{
+  background:url("/img/army.png");
+  height: 1.6em;;
+  width: 1.6em;
+  margin: 0 0.1em;
+  vertical-align: top;
+}
+
+.b-add-objects-panel__decorIcon
+{
+  background:url("/img/battle.png");
+  height: 1.6em;
+  width: 1.6em;
+  margin: 0 0.1em;
+  vertical-align: top;
+}
+
+.b-unit-popup__image
+{
+    float:left;
+    margin:0 1em 1em 0;
+    height: 100px;
+}
+
+.b-unit-popup__image_clickable
+{
+    cursor: pointer;
+    float:left;
+    margin:0 1em 1em 0;
+    height: 100px;
+}
+
+.b-edit-table-container
+{
+  
+}
+
+.b-edit-table-container__table
+{
+  border: none !important;
+  width: auto !important;
+}
+
+.b-edit-table-container__table th
+{
+  width:25em;
+  background: none !important;
+  padding-left: 0 !important;
+  border: none !important;
+}
+
+.b-edit-table-container__table td input
+{
+  width: 90%;
+}
+
+.b-edit-table-container__table td
+{
+  text-align: left !important;
+  background: none !important;
+  padding-left: 0 !important;
+  border: none !important;
+}
+

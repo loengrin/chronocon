@@ -1,0 +1,255 @@
+.b-menu
+{
+  position: absolute;
+  left: 12em;
+  top: 0.7em;   
+  background-image:url("/img/menu_background.png");
+  background-size: 100% 100%;
+}
+
+.b-menu__link
+{
+  margin-right: 1em;
+  font-family:Arial Regular;
+  font-size: 0.8em;
+  color: #ceb765;  
+  text-decoration: none;  
+  cursor: pointer;
+}
+
+.b-login-register-table td
+{
+  vertical-align: top;
+  color: rgb(138, 148, 147);
+}
+
+.b-menu__delimiter
+{
+  font-size: 1.2em;
+  color: #fff;  
+  margin-right: 0.5em;
+}
+
+.b-logo
+{
+  position: absolute;
+  left: 1em;
+  top: 0.7em;
+  height: 2em;
+  width:10em;
+}
+
+.b-logo img
+{
+  height: 100%;
+  width:100%;
+}
+
+.b-share-block
+{
+  position: absolute;
+  right: 1em;
+  top: 0.7em;
+}
+
+.b-main-menu-area
+{
+  position: absolute;
+  left: 0em;
+  top: 0em;
+  height: 4em;
+  width:30em;
+  background-image:url("/img/new/name_back.png");
+  background-size: 100% 100%;
+}
+
+.b-main-menu-area .map-name
+{
+    position: absolute; 
+    left: 3em;
+    right: 0;
+    bottom: 0; 
+    top: 0;
+}
+
+.b-main-menu-area .map-name .name-label
+{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: #CEB765;
+    width:27em;
+    font-size: 1.2em;
+    height:3.5em;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+.b-main-menu-button
+{  
+    position: absolute;
+    left: 0.6em;
+    top: 0.4em;
+    width: 1.5em;
+    height: 1.5em;
+    z-index: 10;
+    background-image: url(/img/new/icon_menu.png);
+    margin-top: 0.5em;
+    margin-left: 0.3em;
+}
+
+.b-message-button
+{  
+  position: absolute;
+  left: 4em;
+  top: 0.3em;
+  width:3em;
+  height:3em;
+  z-index: 10;
+  background-image:url("/img/new/icon_discuss.png"); 
+}
+
+.b-main-menu
+{
+  position: absolute; 
+  top:3.5em;
+  left:0em;
+  z-index:21;  
+  border: 3px solid #000;
+}
+
+
+
+.b-full-screen-button
+{  
+  position: absolute;
+  right: 0.3em;
+  top: 0.3em;
+  width:3em;
+  height:3em;
+  z-index: 10;
+  background-image:url("/img/new/icon_fullscreen.png"); 
+}
+
+.b-full-screen-exit-button
+{  
+  position: absolute;
+  right: 0.3em;
+  width:3em;
+  top: 0.3em;
+  height:3em;
+  z-index: 10;
+  background-image:url("/img/new/icon_smallscreen.png"); 
+}
+
+.b-two-layers-button
+{  
+  position: absolute;
+  right: 4em;
+  top: 0.3em;
+  width:3em;
+  height:3em;
+  z-index: 10;
+  background-image:url("/img/new/icon_layers.png"); 
+}
+
+.b-two-layers-exit-button
+{  
+  position: absolute;
+  right: 4em;
+  width:3em;
+  top: 0.3em;
+  height:3em;
+  z-index: 10;
+  background-image:url("/img/new/icon_layer.png"); 
+}
+
+
+.b-edit-mode-button
+{  
+  position: absolute;
+  left: 0.3em;
+  top: 0.3em;
+  width:3em;
+  height:3em;
+  z-index: 10;
+  background-image:url("/img/new/icon_edit.png"); 
+}
+
+.b-edit-mode-exit-button
+{  
+  position: absolute;
+  left: 0.3em;
+  top: 0.3em;
+  width:3em;
+  height:3em;
+  z-index: 10;
+  background-image:url("/img/new/icon_noedit.png"); 
+}
+
+
+
+.b-date-mode-button
+{  
+  position: absolute;
+  left: 4.5em;
+  width:4em;
+  height:4em;
+  z-index: 10;
+  background-image:url("/img/date_mode_button.png"); 
+}
+
+.b-chains-mode-button
+{  
+  position: absolute;
+  left: 4.5em;
+  width:4em;
+  height:4em;
+  z-index: 10;
+  background-image:url("/img/chains_mode_button.png"); 
+}
+
+.b-main-menu a
+{
+  border-bottom: 1px solid #fff;
+  color:#fff;
+  background-color:rgba(100,100,100,0.8);  
+  text-align: left;
+  font-size: 1.8em;
+  display:block;
+  padding:1px;
+  text-decoration: none;
+}
+
+.b-main-menu span
+{
+  display:block;
+  border-bottom: 3px solid #ceb765;
+}
+
+.b-main-menu div
+{
+  text-align: right;
+  color: #ceb765;
+  background-color:rgba(100,100,100,0.8);  
+}
+
+.b-main-menu div span
+{
+  color: #ceb765;
+  margin: 0  0.1em 0  0.1em;
+  font-size: 1.5em;
+  display: inline;
+  border: none;
+}
+
+.b-main-menu div a
+{
+    display: inline;
+    border-bottom: 0px;
+    background-color: rgba(100,100,100,0);
+}
+
+.b-main-menu div a.active
+{
+    color: gray;
+}

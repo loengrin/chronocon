@@ -1,0 +1,168 @@
+.b-edit-mode-buttons
+{
+  display:none;
+  position: absolute;
+  height: 4.8em;
+  left: 0;
+  width: 25em; 
+  bottom: 0.2em;    
+  box-sizing: border-box;  
+}
+
+
+
+
+
+
+.b-edit-mode-buttons__save-button
+{
+  background-image:url("/img/edit_button.png");
+  margin-left:0.3em;
+  height: 1.6em;
+  color: #CEB765 !important;
+}
+
+.b-edit-mode-buttons__copy-button
+{
+  background-image:url("/img/copy_button.png");
+  margin-left:0.3em;
+  vertical-align: top;
+  height: 1.6em;
+  width: 1.6em;
+}
+
+.b-edit-mode-buttons__exit-button
+{
+  background-image:url("/img/edit_button.png");
+  margin-top:1em;
+  margin-left:1em;
+}
+
+.b-edit-mode-buttons__new-button
+{
+  background-image:url("/img/edit_button.png");
+  margin-top:1em;
+  margin-left:1em;
+  height: 2em;
+  display:none;
+}
+
+.b-edit-mode-buttons__settings-button
+{
+  background-image:url("/img/settings_button.png");
+  margin-left:0.3em;
+  vertical-align: top;
+  height: 1.6em;
+  width: 1.6em;
+}
+
+.b-edit-mode-buttons__history-button
+{
+  background-image:url("/img/history_button.png");
+  margin-left:0.3em;
+  height:1.6em;
+  width: 1.6em;
+  vertical-align: top;
+}
+
+
+.b-edit-mode-buttons__objects-button
+{
+  background-image:url("/img/show_object_list.png");
+  margin-left:0.3em;
+  height:1.6em;
+  width: 1.6em;
+  vertical-align: top;
+}
+
+.b-edit-mode-buttons__view-mode-button
+{
+  background-image:url("/img/edit_button.png");
+  margin-top:1em;
+  margin-left:1em;
+  height: 2em;
+}
+
+.b-edit-mode-buttons__import-button
+{
+  background-image:url("/img/import_button.png");
+  margin-left:0.3em;
+  height: 1.6em;
+  width:1.6em;
+  vertical-align: top;
+}
+
+.b-edit-mode-buttons__search-button
+{
+  background-image:url("/img/search_button.png");
+  margin-left:0.3em;
+  height: 1.6em;
+  width: 1.6em;
+  vertical-align: top;
+}
+
+.b-edit-mode-buttons__table_templates-button
+{
+  background-image:url("/img/setting_unit_table_templates.png");
+  margin-left:0.3em;
+  height: 1.6em;
+  width: 1.6em;
+  vertical-align: top;
+}
+
+.b-edit-mode-buttons__object_groups-button
+{
+  background-image:url("/img/setting_object_groups.png");
+  margin-left:0.3em;
+  height: 1.6em;
+  width: 1.6em;
+  vertical-align: top;
+}
+
+.b-edit-mode-buttons__mobile_emulate-button
+{
+  background-image:url("/img/setting_mobile_emulate.png");
+  margin-left:0.3em;
+  height: 1.6em;
+  width: 1.6em;
+  vertical-align: top;
+}
+
+
+.b-versions
+{
+  border-collapse: collapse;
+}
+
+.b-versions__version-cell
+{
+  border:1px #CEB765 solid;
+  color: #CEB765; 
+  vertical-align: top;
+  padding: 1px;
+}
+.b-versions__version-cell td
+{
+    text-align: center;
+}
+.b-versions__version-cell .b-button
+{
+    font-size: 1.3em;
+    text-decoration: underline;
+    color: #955515;
+}
+
+.b-del-last-version
+{
+  vertical-align: top;    
+}
+
+.b-reload-button
+{
+   background-image:url("/img/edit_button.png");
+}
+
+.b-copy_link
+{
+ color: #fff !important;
+}

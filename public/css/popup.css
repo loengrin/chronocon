@@ -1,0 +1,226 @@
+
+
+
+
+.b-popup-frame
+{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  z-index:9;
+  font-family: Times New Roman;
+  color: #000;   
+}
+
+
+.b-popup-frame__wide
+{ 
+  width: 50em !important;
+  bottom: 2.5em !important;
+}
+
+.b-map-frame .b-popup-frame.b-popup-frame__short
+{ 
+  height: 18em  !important;
+  width: 28em  !important;
+  left: 36% !important; 
+}
+
+.b-popup-frame__short
+{
+  width: 20em  !important;
+  left: calc(50% - 10em) !important;
+}
+
+
+.b-popup-frame-top
+{
+  position: relative;
+  width:100%;  
+}
+
+
+.b-popup-frame-top__right-corner 
+{
+    position: absolute;
+    right: 1em;
+    width: 2em;
+    top: 1em;
+    height: 2em;
+    z-index: 10;
+    background: url(/img/new/del.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+
+.b-popup-frame-top__title
+{
+  display:none;
+  position: absolute;
+  left: 10%;
+  width:80%;  
+  top:  -1.6em;
+  height:1.4em;
+  z-index: 10;  
+  background:url("/img/new_popup_name.png");
+  background-size: 100% 100%;
+  font-family: Times New Roman;
+  color: #CEB765; 
+  font-size: 1.2em;  
+  text-align: center;
+  overflow: hidden;
+}
+
+.b-popup-frame__content-wrapper2
+{
+  padding: 1.5em 0 1.5em 0;
+  background:url("/img/new/popup_text.png");
+  background-size: 100% 100%;
+  width:100%;  
+  height:100%; 
+  box-sizing: border-box;  
+}
+
+
+
+.b-popup-frame__content-wrapper
+{
+  width:100%;
+  height:100%; 
+  height: calc(100% - 4em);
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+
+.b-popup-frame__content
+{
+   width:100%;  
+   padding: 0 1em 0em 2em;
+   height:100%; 
+   font-family: Times New Roman;
+   color: #6A2D0C; 
+   box-sizing: border-box;
+}
+
+
+
+.b-popup-frame__content div
+{
+  box-sizing: border-box;   
+}
+
+.b-popup-frame__content p
+{
+  box-sizing: border-box;
+  text-align:justify;
+  line-height: 120%;
+  font-family: Arial, Regular;
+  font-size: 0.9em;
+}
+
+.popup_header
+{
+    color: #fff;
+    text-align:center;
+    margin: 0.5em 0;
+}
+
+.popup-link
+{
+    color: #6A2D0C !important;
+    vertical-align: middle;
+}
+
+.js-unit-sources .b-artile-textarea
+{
+  width: 25em;
+  height: 10em;
+}
+
+.js-unit-comments .b-artile-textarea
+{
+  width: 25em;
+  height: 10em;
+}
+
+.sources_text
+{
+  color: gray;
+}
+
+.comments_text
+{
+  color: gray;
+}
+
+.b-unit-editor-form td
+{
+  vertical-align: top;
+}
+
+.popup-link-span
+{
+  margin-right: 2em;
+}
+
+.b-tables-container {
+  display: inline-block;
+  margin-left: 3em;
+}
+
+.td-event-name
+{
+  width: 40em;
+}
+
+.td-event-date
+{
+  width: 15em;
+}
+
+.show-objects-button
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+.big-save-button
+{
+    width: 10em;
+    height: 3em;
+    margin-bottom: 1em;
+}
+
+.b-unit-form {
+    padding-bottom: 1em;
+}
+
+b-unit-form span 
+{
+    color: #6A2D0C;
+}
+
+
+.b-big-image-area
+{
+  position: absolute;
+  left: 3em;
+  top: 3em;
+  z-index: 50;
+}
+
+.chain-button
+{
+    background-image:url("/img/forward_button.png");
+    width: 5em;
+    height: 1.5em;
+}
+
+.popup-nav-button 
+{
+   margin: 0 1em;
+}
+
